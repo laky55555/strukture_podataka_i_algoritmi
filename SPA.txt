@@ -1,0 +1,20 @@
+Implementirajte a.t.p.Binary -tree pomoæu polja i napišete potprogram koji kreirra binarno stablo iz prefix oblika 
+aritmetièkog izraza. za kontrolu napravite i preorder obilazak dobivenog stabla.
+
+ulazni podaci:string koji sadrži prefix oblik izraza
+Izlazni podaci:binarno stalo kojeodgovara unešenom izrazu :ako stablo ima n èvorova ondatreba ispisati n redova,
+svaki red je oblikaèvor,lijevo,desno dijeto (ako nekog djeteta nema,ispiše NULL). na kraju još ispišite 
+PREORDER obilazak dobivenog stabla.
+Naprimjer ,za ulazne podatke:
++A*B-*CED
+treba ispisati:
++ A *
+A NULL NULL                                             +
+* B - 						A		*
+B NULL NULL						B		-
+- * D								*		D	
+* C E 							C		E
+C NULL NULL
+E NULL NULL
+D NULL NULL
++A*B-*CED
